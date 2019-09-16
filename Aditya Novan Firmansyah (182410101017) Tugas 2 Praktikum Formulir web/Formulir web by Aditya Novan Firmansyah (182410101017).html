@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MY FORMULIR</title>
+    <style>
+      h1{
+        font-family: courier;
+        font-size: 200%;
+        color: #800000;
+        left: 50%
+      }
+      input[type=text]{
+        padding: 12px 100px;
+        margin: 8px 0;
+        border: 2px color:#808080;
+        border-radius: 4px;
+      }
+      input[type=number]{
+        padding: 12px 100px;
+        margin: 8px 0;
+        border: 2px color:#808080;
+        border-radius: 4px;
+      }
+      input[type=date]{
+        padding: 12px 100px;
+        margin: 8px 0;
+        border: 2px color:#808080;
+        border-radius: 4px;
+      }
+      body{
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      </style>
+  </head>
+  <body background="Background.jpg">
+    <h1><center>FORMULIR<br>DATA DIRI</center></h1>
+
+    				<form align="center">
+    					<input type="text" placeholder="Nama"/><br>
+              <input type="number" placeholder="NIM"/><br>
+              <input type="date" placeholder="Tanggal lahir"/><br>
+              <input type="text" placeholder="Alamat"/><br>
+              <input type="text" placeholder="E-mail"/><br>
+              <input type="number" placeholder="No.Telephone"/>
+              <h4>Pilih jenis kelamin:</h4>
+              <ul class="JenisKelamin">
+                <input type="radio" name="JenisKelamin" value="1">Laki-laki
+                <input type="radio" name="JenisKelamin" value="2">perempuan<br>
+              </ul>
+              <h4>Pilih Hobi atau Masukan Hobi lainnya:</h4>
+              <ul class="Hobi">
+                <input type="checkbox"> Membaca
+                <input type="checkbox"> Menonton
+                <input type="checkbox"> Tidur<br>
+                <input type="checkbox"> Belajar
+                <input type="checkbox"> Nongkrong
+                <input type="checkbox"> Olahraga<br>
+                <input type="checkbox"> Musik
+                <input type="checkbox"> Traveling
+                <input type="checkbox"> Memasak<br>
+              </ul>
+              <input type="text" placeholder="Masukan Hobi lainnya..."/><br>
+              <input type="submit" value="Simpan"/>
+    				</form>
+    				<table border="2" cellspacing="5">
+  </body>
+</html>
