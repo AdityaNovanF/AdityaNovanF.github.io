@@ -1,0 +1,86 @@
+body{
+  background: url("bg4.png") no-repeat top center;
+  background-size: cover;
+  font: 1em/1.5 sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: 	#0d252f;
+}
+form{
+  margin: 20px auto;
+  width: 320px;
+  color: #ffffff;
+}
+input{
+  padding: 10px;
+  font-size: inherit;
+}
+input[type="text"] {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 2px solid  #305d60;
+  background: #faf6d9;
+}
+select{
+  padding: 10px;
+  font-size: inherit;
+  display: block;
+  margin-bottom: 20px;
+  width: 107.5%;
+  border: 2px solid #305d60;
+  background: #faf6d9;
+}
+input[type="password"] {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 2px solid #305d60;
+  background: #faf6d9;
+}
+input[type="number"] {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 2px solid #305d60;
+  background: #faf6d9;
+}
+input[type="date"] {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 2px solid #305d60;
+  background: #faf6d9;
+}
+input[type="radio"] {
+  margin: 0px 8px 15px 15px;
+}
+input[type="radio"]:first-child {
+  margin-left: 0px;
+}
+input[type="checkbox"] {
+    margin: 0px 8px 25px 0px;
+}
+input[type="submit"] {
+  width: 344px;
+  height: 45px;
+  border: none;
+  background: #0d252f;
+  color: white;
+}
+input[type="submit"]:focus {
+  width: 344px;
+  height: 45px;
+  border: solid #0d252f;
+  background: white;
+  color: #0d252f;
+}
+input:focus {
+  background: white;
+}
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  font-size: 18px;
+}
