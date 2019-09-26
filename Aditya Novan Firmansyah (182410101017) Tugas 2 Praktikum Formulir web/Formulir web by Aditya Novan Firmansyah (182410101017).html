@@ -2,36 +2,8 @@
 <html>
   <head>
     <title>MY FORMULIR</title>
-    <style>
-      h1{
-        font-family: courier;
-        font-size: 200%;
-        color: #800000;
-        left: 50%
-      }
-      input[type=text]{
-        padding: 12px 100px;
-        margin: 8px 0;
-        border: 2px color:#808080;
-        border-radius: 4px;
-      }
-      input[type=number]{
-        padding: 12px 100px;
-        margin: 8px 0;
-        border: 2px color:#808080;
-        border-radius: 4px;
-      }
-      input[type=date]{
-        padding: 12px 100px;
-        margin: 8px 0;
-        border: 2px color:#808080;
-        border-radius: 4px;
-      }
-      body{
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      </style>
+    <link rel="stylesheet" href="Desainnya.css">
+    <style></style>
   </head>
   <body background="Background.jpg">
     <h1><center>FORMULIR<br>DATA DIRI</center></h1>
@@ -43,6 +15,7 @@
               <input type="text" placeholder="Alamat"/><br>
               <input type="text" placeholder="E-mail"/><br>
               <input type="number" placeholder="No.Telephone"/>
+              <div>
               <h4>Pilih jenis kelamin:</h4>
               <ul class="JenisKelamin">
                 <input type="radio" name="JenisKelamin" value="1">Laki-laki
@@ -60,6 +33,7 @@
                 <input type="checkbox"> Traveling
                 <input type="checkbox"> Memasak<br>
               </ul>
+            </div>
               <input type="text" placeholder="Masukan Hobi lainnya..."/><br>
               <input type="submit" value="Simpan"/>
     				</form>
