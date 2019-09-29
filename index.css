@@ -15,3 +15,27 @@ img {
   top: 0px;
   z-index: -1;
 }
+form {
+  background-color: rgba(255,255,255,1);
+  padding: 20px 45px 20px 20px;
+  width: 320px;
+  margin: 20px auto;
+}
+input{
+  padding: 5px;
+  font-size: inherit;
+}
+input [type="text"] {
+  display: block;
+  margin-bottom: 10px;
+  width : 100% ;
+  border: 2px solid #305d60;
+  background: #faf6d9;
+}
+input[type="submit"] {
+  width: 344px;
+  height: 45px;
+  border: none;
+  background: #00CFDF;
+  color: #000000;
+}
