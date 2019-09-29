@@ -4,7 +4,6 @@ body{
 }
 .navigasi{
   overflow: hidden;
-  position: fixed;
   top: 5;
   width: 100%;
   margin: 0px 8px 15px 15px;
@@ -54,7 +53,23 @@ form.Login{
 }
 .gaminge{
   color: #9BFFFF;
-  margin: 100px 0px 100px 50px;
+  margin-left: 50px;
+  margin-bottom: 0px;
   font-family: myanmar text;
   font-size: 30px;
+}
+.WithOnetech{
+  color: #4b4b4b;
+  margin-left: 50px;
+  margin-top: 0px;
+  font-family: myanmar text;
+  font-size: 25px;
+}
+form.Selengkapnya [type="submit"]{
+  width: 200px;
+  height: 45px;
+  border: none;
+  background-color: #01c9c9;
+  color: white;
+  margin-left: 50px;
 }
