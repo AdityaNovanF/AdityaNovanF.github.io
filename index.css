@@ -1,0 +1,11 @@
+body{
+  background: url("Web 1920 – 1.jpg") no-repeat top center;
+  background-size: cover;
+}
+.navigasi{
+  overflow: hidden;
+  position: fixed;
+  top: 5;
+  width: 100%;
+  margin: 0px 8px 15px 15px;
+}
