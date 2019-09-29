@@ -9,3 +9,9 @@ body{
   width: 100%;
   margin: 0px 8px 15px 15px;
 }
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
