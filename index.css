@@ -5,8 +5,7 @@ body{
 }
 div.header{
   background-color: #252a2a;
-  border-color: #252a2a;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 header.img {
   position: absolute;
@@ -15,19 +14,63 @@ header.img {
 }
 form.Signup{
   float: left;
-  margin-left: 1360px;
-  margin-top: -82px;
+  margin-top: -66px;
+  margin-left: 1120px;
+}
+input.Signup{
+  width: 100px;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  background: #009F9F;
+  color: white;
 }
 form.Signin{
   float: right;
-  margin-top: -82px;
+  margin-top: -66px;
   margin-right: 10px;
+}
+input.Signin{
+  width: 100px;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  background: #F8B807;
+  color: white;
 }
 form.cari{
   position: absolute;
   float: right;
-  margin-top: 0px;
-  margin-left: 1300px;
+  margin-top: 5px;
+  margin-left: 1140px;
+}
+input.loginin{
+  width: 210px;
+  height: 45px;
+  border: none;
+  background: #00CFDF;
+  color: black;
+}
+input.daftarin{
+  width: 210px;
+  height: 45px;
+  border: none;
+  background: #00CFDF;
+  color: black;
+}
+form.Login{
+  background-color: rgba(255,255,255,1);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  width: 320px;
+  margin : 20px auto;
+}
+form.register{
+  background-color: rgba(255,255,255,1);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  width: 320px;
+  margin : 20px auto;
 }
 input{
   padding: 3px;
@@ -54,7 +97,6 @@ input.Login [type="password"] {
   border: 2px solid #305d60;
   background: #faf6d9;
 }
-
 form.gaminge{
   color: #9BFFFF;
   font-family: myanmar text;
@@ -74,6 +116,27 @@ input.selengkapnya{
   color: white;
 }
 div.content{
-  margin-top: 265px;
+  margin-top: 120px;
   margin-left: 130px
+}
+div.navigasi ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: black; */
+}
+div.navigasi li{
+  float: left;
+}
+div.navigasi li a{
+  display: block;
+  font-family:myanmar;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+div.navigasi{
+  margin-left: 550px;
 }
