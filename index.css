@@ -14,7 +14,7 @@ header.img {
 }
 form.Signup{
   float: left;
-  margin-left: 1190px;
+  margin-left: 1360px;
   margin-top: -82px;
 }
 form.Signin{
@@ -26,7 +26,7 @@ form.cari{
   position: absolute;
   float: right;
   margin-top: 0px;
-  margin-left: 1130px;
+  margin-left: 1300px;
 }
 div.navigasi{
   overflow: hidden;
@@ -61,21 +61,24 @@ input.Login [type="password"] {
   background: #faf6d9;
 }
 
-.gaminge{
+div.gaminge{
+  float: left;
   color: #9BFFFF;
-  margin-left: 50px;
-  margin-bottom: 0px;
   font-family: myanmar text;
   font-size: 30px;
+  margin-left: 150px;
+  margin-top: 190px;
 }
-.WithOnetech{
+div.WithOnetech{
+  position: absolute;
   color: #4b4b4b;
-  margin-left: 50px;
-  margin-top: 0px;
   font-family: myanmar text;
   font-size: 25px;
+  margin-left: 150px;
+  margin-top: 250px;
 }
 form.Selengkapnya [type="submit"]{
+  position: absolute;
   width: 200px;
   height: 45px;
   border: none;
