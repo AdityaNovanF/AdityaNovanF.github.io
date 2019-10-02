@@ -60,29 +60,26 @@ input.Login [type="password"] {
   border: 2px solid #305d60;
   background: #faf6d9;
 }
-
+div.WithOnetech{
+  color: #4b4b4b;
+  font-family: myanmar text;
+  font-size: 25px;
+  margin-top: 300px;
+  text-align: left;
+}
 div.gaminge{
   float: left;
   color: #9BFFFF;
   font-family: myanmar text;
   font-size: 30px;
-  margin-left: 150px;
-  margin-top: 190px;
-}
-div.WithOnetech{
-  position: absolute;
-  color: #4b4b4b;
-  font-family: myanmar text;
-  font-size: 25px;
-  margin-left: 150px;
-  margin-top: 250px;
+  margin-top: 150px;
+  margin-left: 100px;
 }
 form.Selengkapnya [type="submit"]{
-  position: absolute;
   width: 200px;
   height: 45px;
   border: none;
   background-color: #01c9c9;
   color: white;
-  margin-left: 50px;
+  margin-left: 100px;
 }
