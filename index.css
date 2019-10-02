@@ -1,6 +1,7 @@
 body{
-  background: url("Web 1920 – 1.jpg") no-repeat top center;
+  background: url("Web 1920 – 1.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 div.header{
   background-color: #252a2a;
@@ -28,13 +29,6 @@ form.cari{
   margin-top: 0px;
   margin-left: 1300px;
 }
-div.navigasi{
-  overflow: hidden;
-  top: 5;
-  width: 100%;
-  margin: 0px 8px 15px 15px;
-  text-decoration-color: #ffffff;
-}
 input{
   padding: 3px;
   font-size: inherit;
@@ -60,26 +54,26 @@ input.Login [type="password"] {
   border: 2px solid #305d60;
   background: #faf6d9;
 }
-div.WithOnetech{
-  color: #4b4b4b;
-  font-family: myanmar text;
-  font-size: 25px;
-  margin-top: 300px;
-  text-align: left;
-}
-div.gaminge{
-  float: left;
+
+form.gaminge{
   color: #9BFFFF;
   font-family: myanmar text;
   font-size: 30px;
-  margin-top: 150px;
-  margin-left: 100px;
 }
-form.Selengkapnya [type="submit"]{
+form.WithOnetech{
+  color: #4b4b4b;
+  font-family: myanmar text;
+  font-size: 25px;
+  margin-top: -80px;
+}
+input.selengkapnya{
   width: 200px;
   height: 45px;
   border: none;
-  background-color: #01c9c9;
+  background: #1d9fb6;
   color: white;
-  margin-left: 100px;
+}
+div.content{
+  margin-top: 265px;
+  margin-left: 130px
 }
