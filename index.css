@@ -2,26 +2,41 @@ body{
   background: url("Web 1920 – 1.jpg") no-repeat top center;
   background-size: cover;
 }
-.navigasi{
+div.header{
+  background-color: #252a2a;
+  border-color: #252a2a;
+  border-radius: 20px;
+}
+header.img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+form.Signup{
+  float: left;
+  margin-left: 1190px;
+  margin-top: -82px;
+}
+form.Signin{
+  float: right;
+  margin-top: -82px;
+  margin-right: 10px;
+}
+form.cari{
+  position: absolute;
+  float: right;
+  margin-top: 0px;
+  margin-left: 1130px;
+}
+div.navigasi{
   overflow: hidden;
   top: 5;
   width: 100%;
   margin: 0px 8px 15px 15px;
-}
-img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-form.register{
-  background-color: rgba(255,255,255,1);
-  padding: 20px 45px 20px 20px;
-  width: 320px;
-  margin: 20px auto;
+  text-decoration-color: #ffffff;
 }
 input{
-  padding: 5px;
+  padding: 3px;
   font-size: inherit;
 }
 input [type="text"] {
@@ -45,12 +60,7 @@ input.Login [type="password"] {
   border: 2px solid #305d60;
   background: #faf6d9;
 }
-form.Login{
-  background-color: rgba(255,255,255,1);
-  padding: 20px 45px 20px 20px;
-  width: 320px;
-  margin: 20px auto;
-}
+
 .gaminge{
   color: #9BFFFF;
   margin-left: 50px;
