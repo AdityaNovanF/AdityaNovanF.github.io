@@ -124,7 +124,6 @@ div.navigasi ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: black; */
 }
 div.navigasi li{
   float: left;
@@ -139,4 +138,26 @@ div.navigasi li a{
 }
 div.navigasi{
   margin-left: 550px;
+}
+li.kategori{
+	display:inline-block;
+}
+li.kategori:hover ul.isi-kategori{
+	display: block;
+}
+ul.isi-kategori a:hover {
+	color: #fff !important;
+}
+ul.isi-kategori{
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color: #f9f9f9;
+}
+ul.isi-kategori a{
+	color: #383636 !important;
+}
+ul.isi-kategori a:hover{
+	color: #232323 !important;
+	background: #f3f3f3 !important;
 }
