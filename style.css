@@ -1,5 +1,5 @@
 body{
-  background: url("Web 1920 – 1.jpg");
+  background: url("img/Web 1920 – 1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -43,6 +43,12 @@ form.cari{
   float: right;
   margin-top: 5px;
   margin-left: 1140px;
+}
+form.cari-produk{
+  position: absolute;
+  float: right;
+  margin-top: 5px;
+  margin-left: 1130px;
 }
 input.loginin{
   width: 210px;
@@ -115,7 +121,7 @@ input.selengkapnya{
   background: #1d9fb6;
   color: white;
 }
-div.content{
+div.contentindex{
   margin-top: 120px;
   margin-left: 130px
 }
@@ -160,4 +166,28 @@ ul.isi-kategori a{
 ul.isi-kategori a:hover{
 	color: #232323 !important;
 	background: #f3f3f3 !important;
+}
+.content-produk{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.content-produk > div {
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.ket-produk{
+  width: 200px;
+  height: 45px;
+  margin-left: 260px;
+  /* border: none;
+  background: #1d9fb6;
+  color: white; */
 }
