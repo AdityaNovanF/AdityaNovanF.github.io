@@ -38,12 +38,6 @@ input.Signin{
   background: #F8B807;
   color: white;
 }
-form.cari{
-  position: absolute;
-  float: right;
-  margin-top: 5px;
-  margin-left: 83%;
-}
 input.loginin{
   width: 210px;
   height: 45px;
@@ -130,8 +124,8 @@ div.navigasi li{
 }
 div.navigasi li a{
   display: block;
-  font-family:myanmar;
-  color: black;
+  font-family:sans-serif;
+  color: #252a2a;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -144,9 +138,11 @@ li.kategori{
 }
 li.kategori:hover ul.isi-kategori{
 	display: block;
+  border-bottom: none;
 }
 ul.isi-kategori a:hover {
-	color: #fff !important;
+	color: blue !important;
+  border-bottom: none;
 }
 ul.isi-kategori{
 	position: absolute;
@@ -157,9 +153,32 @@ ul.isi-kategori{
 ul.isi-kategori a{
 	color: #383636 !important;
 }
-ul.isi-kategori a:hover{
-	color: #232323 !important;
-	background: #f3f3f3 !important;
+.navigasi li :hover{
+  border-bottom: 5px solid #252a2a;
+  background: white;
+}
+form.cari{
+  position: absolute;
+  float: right;
+  margin-top: 5px;
+  margin-left: 83%;
+}
+.cari {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #252a2a;
+  padding: 8px 0;
+}
+.cari input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #252a2a;
+}
+.cari input::placeholder {
+  color: #252a2a;
 }
 .content-produk{
   display: grid;
@@ -181,21 +200,7 @@ ul.isi-kategori a:hover{
   width: 200px;
   height: 45px;
   margin-left: 260px;
-  /* border: none;
+  border: none;
   background: #1d9fb6;
-  color: white; */
-}
-.navigasi li{
-  color: black;
-  float: left;
-  list-style-type: none;
-  cursor: pointer;
-  line-height: 30px;
-}
-.navigasi li :hover{
-  background-color: white;
-}
-.navigasi li ul li{
-  right: 60px;
-  top:15x;
+  color: white;
 }
