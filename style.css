@@ -15,7 +15,7 @@ header.img {
 form.Signup{
   float: left;
   margin-top: -66px;
-  margin-left: 1120px;
+  margin-left: 83%;
 }
 input.Signup{
   width: 100px;
@@ -28,7 +28,7 @@ input.Signup{
 form.Signin{
   float: right;
   margin-top: -66px;
-  margin-right: 10px;
+  margin-right: 0.9%;
 }
 input.Signin{
   width: 100px;
@@ -42,13 +42,7 @@ form.cari{
   position: absolute;
   float: right;
   margin-top: 5px;
-  margin-left: 1140px;
-}
-form.cari-produk{
-  position: absolute;
-  float: right;
-  margin-top: 5px;
-  margin-left: 1130px;
+  margin-left: 83%;
 }
 input.loginin{
   width: 210px;
