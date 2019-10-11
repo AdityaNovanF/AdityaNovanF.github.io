@@ -191,3 +191,17 @@ ul.isi-kategori a:hover{
   background: #1d9fb6;
   color: white; */
 }
+.navigasi li{
+  color: black;
+  float: left;
+  list-style-type: none;
+  cursor: pointer;
+  line-height: 30px;
+}
+.navigasi li :hover{
+  background-color: white;
+}
+.navigasi li ul li{
+  right: 60px;
+  top:15x;
+}
