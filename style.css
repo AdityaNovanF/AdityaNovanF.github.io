@@ -190,9 +190,10 @@ form.cari{
 }
 .item{
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 100px;
+  padding: 50px;
   font-size: 30px;
   text-align: center;
+  border-radius: 20px;
 }
 .footer{
   position: fixed;
@@ -203,4 +204,10 @@ form.cari{
   background-color: #0a090a;
   color: white;
   text-align: center;
+}
+.item h1{
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: left;
+  margin-top: 20px;
 }
