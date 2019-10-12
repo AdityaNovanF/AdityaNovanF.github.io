@@ -204,3 +204,13 @@ form.cari{
   background: #1d9fb6;
   color: white;
 }
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #292729;
+  color: white;
+  text-align: center;
+}
