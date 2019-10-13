@@ -187,6 +187,7 @@ form.cari{
   grid-template-columns: auto auto auto;
   background-color: none;
   padding: 0px;
+  margin-top: 3%;
 }
 .item{
   background-color: rgba(255, 255, 255, 0.8);
@@ -227,5 +228,16 @@ input.button{
   background: #009F9F;
   color: white;
   margin-left: -70px;
-
+}
+.macam-produk{
+  float: left;
+  position: fixed;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  background-color: rgba(255,255,255,1);
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  width: 320px;
 }
