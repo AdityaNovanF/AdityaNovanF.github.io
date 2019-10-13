@@ -153,8 +153,7 @@ ul.isi-kategori{
 ul.isi-kategori a{
 	color: #383636 !important;
 }
-.navigasi li :hov er{
-  /* border-bottom: 5px solid #252a2a; */
+.navigasi li :hover{
   text-decoration:underline;
   background: white;
 }
