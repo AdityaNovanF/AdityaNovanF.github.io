@@ -260,13 +260,16 @@ h3{
 @media screen and (max-width: 768px){
   body{
     background: url("img/Mobile.jpg");
-    background-size: 170% 250%;
+    background-size: 270% 310%;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
+  }
+  div.header{
+    border-radius: 10px;
   }
   form.Signup{
     float: left;
-    margin-top: -25px;
+    margin-top: -28px;
     margin-left: 70%;
   }
   input.Signup{
@@ -277,7 +280,7 @@ h3{
   form.Signin{
     position: absolute;
     float: right;
-    margin-top: -24px;
+    margin-top: -27px;
     margin-left: 82%;
   }
   input.Signin{
@@ -306,8 +309,8 @@ h3{
   }
   form.WithOnetech{
     font-size: 80%;
-    margin-top: -7%;
-    color: #eeeaea;
+    margin-top: 5%;
+    color: #4b4b4b;
   }
   input.selengkapnya{
     width: 28%;
@@ -315,7 +318,7 @@ h3{
     font-size: 60%;
   }
   div.contentindex{
-    margin-top: 60%;
+    margin-top: 50%;
     margin-left: 5%;
   }
   .header img.logo{
