@@ -254,6 +254,26 @@ input.button{
   padding: 10px 10px 10px 10px;
   width: 320px;
 }
+.tambahproduk {
+  position: absolute;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background: #009F9F;
+  color: white;
+  margin-top: -4%;
+  margin-left: 16%;
+}
+h3{
+  font-family:sans-serif;
+}
+.macam{
+  display: block;
+  font-family:sans-serif;
+  color: #252a2a;
+  text-decoration: none;
+}
 @media screen and (max-width: 480px){
   body{
     background-size:auto;
