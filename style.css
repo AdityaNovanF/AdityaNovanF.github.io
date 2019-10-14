@@ -13,14 +13,14 @@ header.img {
   top: 0px;
 }
 .header img.logo{
-  width: 540px;
-  height: 81px;
+  width: 40%;
+  height: 15%;
 }
-form.Signup{
+/* form.Signup{
   float: left;
   margin-top: -66px;
   margin-left: 83%;
-}
+} */
 input.Signup{
   width: 100px;
   height: 45px;
@@ -30,9 +30,12 @@ input.Signup{
   color: white;
 }
 form.Signin{
-  float: right;
+  position: absolute;
+  /* float: right;
   margin-top: -66px;
-  margin-right: 0.9%;
+  margin-right: 0.9%; */
+  margin-left: 8%;
+  margin-top: -3.3%;
 }
 input.Signin{
   width: 100px;
@@ -41,6 +44,11 @@ input.Signin{
   border: none;
   background: #F8B807;
   color: white;
+}
+.sign{
+  float: right;
+  margin-left: 60%;
+  margin-top: -5%;
 }
 input.loginin{
   width: 210px;
@@ -246,38 +254,7 @@ input.button{
   padding: 10px 10px 10px 10px;
   width: 320px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
   body{
     background-size:auto;
-  }
-  .header img.logo{
-    width: 260px;
-    height: 60px;
-  }
-  form.Signup{
-    float: left;
-    margin-top: -66px;
-    margin-left: 83%;
-  }
-  input.Signup{
-    width: 100px;
-    height: 45px;
-    border-radius: 50px;
-    border: none;
-    background: #009F9F;
-    color: white;
-  }
-  form.Signin{
-    float: right;
-    margin-top: -66px;
-    margin-right: 0.9%;
-  }
-  input.Signin{
-    width: 100px;
-    height: 45px;
-    border-radius: 50px;
-    border: none;
-    background: #F8B807;
-    color: white;
-  }
 }
