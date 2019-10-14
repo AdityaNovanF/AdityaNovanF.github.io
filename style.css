@@ -235,16 +235,16 @@ input.button{
   background-color: rgba(255,255,255,0.8);
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
-  width: 320px;
+  width: 25%;
 }
 .tambahproduk {
   position: absolute;
-  width: 100px;
+  width: 8%;
   height: 45px;
   border-radius: 10px;
   border: none;
-  background: #009F9F;
-  color: white;
+  background: #121616;
+  color: #5fc2c2;
   margin-top: -4%;
   margin-left: 16%;
 }
@@ -260,7 +260,7 @@ h3{
 @media screen and (max-width: 768px){
   body{
     background: url("img/Mobile.jpg");
-    background-size: 270% 310%;
+    background-size: 270% 330%;
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -323,5 +323,20 @@ h3{
   }
   .header img.logo{
     width: 55%;
+  }
+  .content-produk{
+    grid-template-columns: 80%;
+    margin-right: -18%;
+  }
+  .macam-produk{
+    position: absolute;
+    width: 25%;
+    font-size: 90%
+  }
+  .tambahproduk {
+    width: 90%;
+    height: 45px;
+    margin-top: 478%;
+    margin-left: -2%;
   }
 }
