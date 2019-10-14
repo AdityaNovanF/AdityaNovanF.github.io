@@ -16,11 +16,11 @@ header.img {
   width: 40%;
   height: 15%;
 }
-/* form.Signup{
+form.Signup{
   float: left;
   margin-top: -66px;
   margin-left: 83%;
-} */
+}
 input.Signup{
   width: 100px;
   height: 45px;
@@ -31,11 +31,11 @@ input.Signup{
 }
 form.Signin{
   position: absolute;
-  /* float: right;
+  float: right;
   margin-top: -66px;
-  margin-right: 0.9%; */
-  margin-left: 8%;
-  margin-top: -3.3%;
+  /* margin-right: 0.9%; */
+  margin-left: 90%;
+  /* margin-top: -3.3%; */
 }
 input.Signin{
   width: 100px;
@@ -44,11 +44,6 @@ input.Signin{
   border: none;
   background: #F8B807;
   color: white;
-}
-.sign{
-  float: right;
-  margin-left: 60%;
-  margin-top: -5%;
 }
 input.loginin{
   width: 210px;
