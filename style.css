@@ -12,6 +12,10 @@ header.img {
   left: 0px;
   top: 0px;
 }
+.header img.logo{
+  width: 540px;
+  height: 81px;
+}
 form.Signup{
   float: left;
   margin-top: -66px;
@@ -241,4 +245,39 @@ input.button{
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
   width: 320px;
+}
+@media screen and (max-width: 600px){
+  body{
+    background-size:auto;
+  }
+  .header img.logo{
+    width: 260px;
+    height: 60px;
+  }
+  form.Signup{
+    float: left;
+    margin-top: -66px;
+    margin-left: 83%;
+  }
+  input.Signup{
+    width: 100px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background: #009F9F;
+    color: white;
+  }
+  form.Signin{
+    float: right;
+    margin-top: -66px;
+    margin-right: 0.9%;
+  }
+  input.Signin{
+    width: 100px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background: #F8B807;
+    color: white;
+  }
 }
