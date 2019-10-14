@@ -22,7 +22,7 @@ form.Signup{
   margin-left: 83%;
 }
 input.Signup{
-  width: 100px;
+  width: 150%;
   height: 45px;
   border-radius: 50px;
   border: none;
@@ -33,12 +33,10 @@ form.Signin{
   position: absolute;
   float: right;
   margin-top: -66px;
-  /* margin-right: 0.9%; */
   margin-left: 90%;
-  /* margin-top: -3.3%; */
 }
 input.Signin{
-  width: 100px;
+  width: 175%;
   height: 45px;
   border-radius: 50px;
   border: none;
@@ -101,30 +99,32 @@ input.Login [type="password"] {
 form.gaminge{
   color: #9BFFFF;
   font-family: myanmar text;
-  font-size: 30px;
+  font-size: 180%;
 }
 form.WithOnetech{
   color: #4b4b4b;
   font-family: myanmar text;
-  font-size: 25px;
-  margin-top: -80px;
+  font-size: 160%;
+  margin-top: -4%;
 }
 input.selengkapnya{
-  width: 200px;
+  width: 15%;
   height: 45px;
   border: none;
   background: #1d9fb6;
   color: white;
+  font-size: 120%;
 }
 div.contentindex{
-  margin-top: 120px;
-  margin-left: 130px
+  margin-top: 10%;
+  margin-left: 10%;
 }
 div.navigasi ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-size: 110%;
 }
 div.navigasi li{
   float: left;
@@ -203,18 +203,6 @@ form.cari{
   text-align: center;
   border-radius: 20px;
 }
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height:auto;
-  margin: auto;
-  background-color: #0a090a;
-  padding: 0px 0px;
-  color: white;
-  text-align: center;
-}
 .item h1{
   font-size: 15px;
   font-family: sans-serif;
@@ -269,7 +257,61 @@ h3{
   color: #252a2a;
   text-decoration: none;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   body{
-    background-size:auto;
+    background-size: 200% 200%;
+  }
+  form.Signup{
+    float: left;
+    margin-top: -30px;
+    margin-left: 71%;
+  }
+  input.Signup{
+    width: 100%;
+    height: 25px;
+    font-size: 88%;
+  }
+  form.Signin{
+    position: absolute;
+    float: right;
+    margin-top: -30px;
+    margin-left: 83%;
+  }
+  input.Signin{
+    width: 108%;
+    height: 25px;
+    font-size: 88%;
+  }
+  div.navigasi{
+    margin-left: 0%;
+  }
+  div.navigasi ul{
+    font-size: 80%;
+  }
+  form.cari{
+    margin-top: 0px;
+    margin-left: 70%;
+  }
+  .cari {
+    width: 25%;
+    border-bottom: 1px solid #252a2a;
+    padding: 2px 0;
+    font-size: 80%;
+  }
+  form.gaminge{
+    font-size: 110%;
+  }
+  form.WithOnetech{
+    font-size: 115%;
+    margin-top: -6%;
+  }
+  input.selengkapnya{
+    width: 28%;
+    height: 35px;
+    font-size: 90%;
+  }
+  div.contentindex{
+    margin-top: 40%;
+    margin-left: 10%;
+  }
 }
