@@ -291,12 +291,14 @@ h3{
 }
 h2.judul-produk{
   font-size: 3vw;
+  font-family: sans-serif;
+  text-align: center;
   color: #ffffff;
-  margin-left: 12%;
-  margin-top: 2%;
+  margin-left: 37%;
   background-color: #252a2a;
-  width: 26%;
-  border-radius: 10px;
+  /* background-color: rgba(255,255,255,0.5); */
+  width: 30%;
+  border-radius: 0px;
 }
 .card {
   background-color: rgba(255,255,255,0.5);
@@ -306,7 +308,8 @@ h2.judul-produk{
   text-align: center;
   font-family: arial;
   font-size: 1,4vw;
-  margin-left: 10%;
+  margin-left: 37%;
+  margin-top: -2%
 }
 img.gambar-produk{
   padding-top: 7%;
