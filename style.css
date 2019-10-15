@@ -259,22 +259,24 @@ h3{
 }
 #message {
   display:none;
-  background: #f1f1f1;
+  background-color: rgba(255,255,255,0.2);
   color: #000;
-  position: relative;
-  padding: 20px;
-  margin-top: 10px;
+  position: absolute;
+  padding: 5%;
+  margin-top: -27%;
+  margin-left: 5%;
+  width: 17%;
+  height: 35%;
 }
 #message p {
-  padding: 10px 35px;
-  font-size: 18px;
+  font-size: 100%;
 }
 .valid {
   color: green;
 }
 .valid:before {
   position: relative;
-  left: -35px;
+  left: -20%;
   content: "OK";
 }
 .invalid {
