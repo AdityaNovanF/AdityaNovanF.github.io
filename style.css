@@ -326,17 +326,17 @@ h3{
   }
   .content-produk{
     grid-template-columns: 80%;
-    margin-right: -18%;
+    margin-right: -19%;
   }
   .macam-produk{
     position: absolute;
-    width: 25%;
+    width: 23%;
     font-size: 90%
   }
   .tambahproduk {
-    width: 90%;
-    height: 45px;
-    margin-top: 478%;
-    margin-left: -2%;
+    width: 87%;
+    height: 30px;
+    margin-top: 550%;
+    margin-left: -6%;
   }
 }
