@@ -261,11 +261,11 @@ h3{
 }
 #message {
   display:none;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.5);
   color: #000;
   position: absolute;
   padding: 5%;
-  margin-top: -27%;
+  margin-top: -32%;
   margin-left: 5%;
   width: 17%;
   height: 35%;
@@ -289,6 +289,74 @@ h3{
   left: -35px;
   content: "X";
 }
+h2.judul-produk{
+  font-size: 3vw;
+  color: #ffffff;
+  margin-left: 12%;
+  margin-top: 2%;
+  background-color: #252a2a;
+  width: 26%;
+  border-radius: 10px;
+}
+.card {
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+  max-width: 30%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  font-size: 1,4vw;
+  margin-left: 10%;
+}
+img.gambar-produk{
+  padding-top: 7%;
+  width: 70%;
+}
+p.deskripsi{
+  font-size: 1.2vw;
+}
+.price {
+  color: #534d51;
+  font-size: 1.4vw;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 3%;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 2vw;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+input.Signup:hover {
+  background-color: #252a2a;
+  border-color: #278fa2;
+  border-style: solid;
+}
+input.Signin:hover {
+  background-color: #252a2a;
+  border-color: #ecb40e;
+  border-style: solid;
+}
+input.alamat-tujuan{
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 40%;
+  width: 15%;
+  height:28px;
+  background-color: rgba(255,255,255,0.4);
+  border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}
+input.alamat-tujuan::placeholder{
+  color: #434441;
+}
+
 @media screen and (max-width: 768px){
   body{
     background: url("img/Mobile.jpg");
