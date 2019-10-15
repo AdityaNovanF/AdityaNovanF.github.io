@@ -257,6 +257,34 @@ h3{
   color: #252a2a;
   text-decoration: none;
 }
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+.valid {
+  color: green;
+}
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "OK";
+}
+.invalid {
+  color: red;
+}
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "X";
+}
 @media screen and (max-width: 768px){
   body{
     background: url("img/Mobile.jpg");
