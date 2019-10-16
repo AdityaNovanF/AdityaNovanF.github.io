@@ -36,21 +36,22 @@
       <h2>ONETECH</h2>
       <h3>Create an Account</h3>
       <input type="email" id="usrname" placeholder="Email address" required><br><br>
-      <input type="password" id="psw" placeholder="Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
-      <input type="password" placeholder="Verifikasi Password"><br><br>
       <input type="text" placeholder="First Name"><br><br>
       <input type="text" placeholder="Last Name"><br><br>
-      <form class="daftarin" action="index.html" method="post">
+      <input type="password" id="psw" placeholder="Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password harus menggunakan huruf kapital, huruf kecil, angka, and lebih dari 8 karakter" required><br><br>
+      <input type="password" id="psw" placeholder="Verifikasi Password" required><br><br>
+      <input align="Right" type="checkbox" onclick="tampilkanpsw()"><i>Tampilkan Password</i><br><br>
+      <form class="daftarin">
         <input class= "daftarin" type="submit" name="Login" value="C R E A T E"><br><br>
         <a href="Login.html">Back to Login</a>
       </form>
     </form>
 
     <div id="message">
-      <h3>Password Harus Menggunakan Aturan Berikut:</h3>
+      <h3 class="message">Password Harus Menggunakan Aturan Berikut:</h3>
       <p id="letter" class="invalid"><b>Menggunakan Huruf Kecil</b></p>
       <p id="capital" class="invalid"><b>Menggunakan Huruf Kapital</b></p>
-      <p id="number" class="invalid">A<b>Menggunakan Angka</b></p>
+      <p id="number" class="invalid"><b>Menggunakan Angka</b></p>
       <p id="length" class="invalid"><b>Minimal 8 Karakter</b></p>
     </div>
 
@@ -103,6 +104,14 @@
       } else {
         length.classList.remove("valid");
         length.classList.add("invalid");
+      }
+    }
+    function tampilkanpsw() {
+      var x = document.getElementById("psw");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
       }
     }
     </script>

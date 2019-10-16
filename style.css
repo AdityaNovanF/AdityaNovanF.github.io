@@ -296,7 +296,6 @@ h2.judul-produk{
   color: #ffffff;
   margin-left: 37%;
   background-color: #252a2a;
-  /* background-color: rgba(255,255,255,0.5); */
   width: 30%;
   border-radius: 0px;
 }
@@ -359,7 +358,9 @@ input.alamat-tujuan{
 input.alamat-tujuan::placeholder{
   color: #434441;
 }
-
+input.tambahproduk:hover {
+  opacity: 0.7;
+}
 @media screen and (max-width: 768px){
   body{
     background: url("img/Mobile.jpg");
@@ -441,5 +442,22 @@ input.alamat-tujuan::placeholder{
     height: 30px;
     margin-top: 550%;
     margin-left: -6%;
+  }
+  #message{
+    margin-top: 8%;
+    height: 60%;
+    width: 80%;
+
+  }
+  h3.message{
+    font-size: 5vw;
+  }
+  .valid:before {
+    left: -5%;
+    text-align: center;
+  }
+  .invalid:before {
+    left: -5%;
+    text-align: center;
   }
 }
