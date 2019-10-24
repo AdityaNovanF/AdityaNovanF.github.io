@@ -596,4 +596,40 @@ form.order{
     left: -5%;
     text-align: center;
   }
+  div.footer{
+    margin-top: 1175%;
+    height: 750px;
+  }
+  div.footer-kiri{
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 3%;
+  }
+  img.logo-footer{
+    width: 60%;
+    margin-left: 25%;
+  }
+  p.isi-footer{
+    font-size: 4vw;
+  }
+  div.footer-tengah{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 60%;
+  }
+  div.footer-kanan{
+    float: left;
+    margin-top: 85%;
+    margin-left: 22%;
+  }
+  img.icon-footer{
+    width: 15%;
+  }
+  p.isi-icon{
+    margin-left: 25%;
+    margin-top: -19%;
+  }
+  h3.site{
+    font-size: 5vw;
+  }
 }
