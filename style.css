@@ -577,7 +577,7 @@ form.order{
   .tambahproduk {
     width: 87%;
     height: 30px;
-    margin-top: 550%;
+    margin-top: 480%;
     margin-left: -6%;
   }
   #message{
@@ -597,8 +597,8 @@ form.order{
     text-align: center;
   }
   div.footer{
-    margin-top: 1175%;
-    height: 750px;
+    margin-top: 1150%;
+    height: 880px;
   }
   div.footer-kiri{
     width: 100%;
