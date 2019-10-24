@@ -361,6 +361,60 @@ input.alamat-tujuan::placeholder{
 input.tambahproduk:hover {
   opacity: 0.7;
 }
+div.footer{
+  margin-top: 105%;
+  background-color: #252a2a;
+  border-radius: 10px;
+  height: 290px;
+}
+div.footer-kiri{
+  float: left;
+  width: 25%;
+  padding-left: 2%;
+  padding-top: 1%;
+}
+img.logo-footer{
+  width: 90%;
+  margin-left: 6%;
+}
+p.isi-footer{
+  font-size: 1.3vw;
+  color: #fefefe;
+}
+div.footer-tengah{
+  margin-left: 45%;
+  padding-top: 0.1%;
+}
+h3.site{
+  color: #ffffff;
+}
+.link-site{
+  text-decoration: none;
+}
+p.site{
+  color: #ffffff;
+  margin-left: -2%;
+}
+p.site:hover{
+  color: #04f1f9;
+}
+div.footer-kanan{
+  float: right;
+  margin-right: -15%;
+  margin-top: -20%;
+}
+img.icon-footer{
+  width: 5%;
+}
+p.isi-icon{
+  color: #ffffff;
+  margin-left: 7%;
+  margin-top: -5%;
+}
+p.isi-icon:hover{
+  color: #04f1f9;
+}
+
 @media screen and (max-width: 768px){
   body{
     background: url("img/Mobile.jpg");
@@ -447,7 +501,6 @@ input.tambahproduk:hover {
     margin-top: 8%;
     height: 60%;
     width: 80%;
-
   }
   h3.message{
     font-size: 5vw;
