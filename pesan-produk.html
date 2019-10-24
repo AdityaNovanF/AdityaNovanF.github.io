@@ -34,17 +34,34 @@
         </ul>
       </div>
 
-  <div class="content-produk1">
-    <h2 class="judul-produk">DETAIL PRODUK</h2>
-    <div class="card">
-      <img class="gambar-produk "src="img/produk1.png">
-      <h1>ONEKEY 001</h1>
-      <p class="price">Rp.300.000</p>
-      <p class="deskripsi">Ketika kamu membawa ONEKEY 001 bersamamu, pengaturan khusus pun akan terbawa. Dengan menyimpan preferensimu di onboard memory menggunakan ONEKEY, kamu bisa menggunakannya di PC lain tanpa perlu menginstal software atau merekonfigurasi pengaturanmu.</p>
-      <a href="pesan-produk.html"><p><button>P E S A N</button></p></a>
-    </div>
+  <div class="content-pesan">
+    <form class="pesan">
+      <h2>CHEKOUT</h2><hr>
+      <h3>Alamat Penerima</h3>
+      <input class ="nama" type="text" placeholder="Nama Depan"> <input class="nama" type="text" placeholder="Nama Belakang"><br><br>
+      <input class="alamatpesan" type="text" placeholder="Alamat"><br><br>
+      <input class="alamatpesan" type="text" placeholder="Kota"><br><br>
+      <input class="alamatpesan" type="text" placeholder="Kode Pos"><br><br>
+      <h3>Metode Pengiriman</h3>
+      <input type="radio">Pengiriman Standar (4-7 Hari) Rp.20.000<br><br>
+      <input type="radio">Pengiriman Express (2-3 Hari) Rp.40.000<br><br>
 
-    <div class="footer" style="margin-top: 10%;">
+      <h3>Pesan Pembeli :</h3>
+      <textarea name="deskripsi" rows="7" cols=110 placeholder="ex: Warna Biru Mas"></textarea><br><br>
+      <form class="simpanpesan" action="index.html" method="post">
+        <input class= "simpanpesan" type="submit" name="Login" value="SIMPAN"><br><br>
+      </form>
+    </form>
+    <form class="order" align="right">
+      <h2>ORDER</h2><hr>
+      <h3>Nama Barang :</h3><p class="namaproduk">ONEKEY 001</p>
+      <h3>Harga :</h3><p class="namaproduk">Rp.300.000</p>
+      <h3>Pengiriman :</h3><p class="namaproduk">Rp.20.000</p><hr>
+      <h3>Subtotal :</h3><p class="namaproduk">Rp.320.000</p>
+    </form>
+  </div>
+
+    <div class="footer" style="margin-top: 40%;">
       <div class="footer-kiri">
         <a href="index.html"><img class="logo-footer" src="img/LOGO.png"></a>
         <p class="isi-footer">ONETECT OFFICIAL STRORE adalah salah satu tempat belanja online yang akan memeberikan pengalaman bagi pengguna dalam memilih barang yang terbaik dengan kualitas yang terjamin bagus selain itu toko ini mengkhususkan menyediakan perlengkapan dalam bermain game, sehingga memaksimalkan dalam permainan game pengguna.</p>

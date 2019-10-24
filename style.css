@@ -453,6 +453,40 @@ p.tentang-lokasi{
 p.tentang:hover{
   color: #000000;
 }
+form.pesan{
+  position: relative;
+  background-color: rgba(255,255,255,1);
+  padding: 20px 20px 20px 20px;
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+.alamatpesan{
+  width: 98%;
+}
+.nama{
+  width: 48.1%;
+}
+form.order{
+  background-color: rgba(255,255,255,1);
+  padding: 20px 20px 20px 20px;
+  width: 30%;
+  margin-top: -55.75%;
+  margin-left: 66%;
+  text-align: left;
+}
+.namaproduk{
+  margin-left: 50%;
+  margin-top: -9.5%;
+}
+
+.simpanpesan{
+  width: 794px;
+  height: 45px;
+  border: none;
+  background: #00CFDF;
+  color: black;
+}
 
 @media screen and (max-width: 768px){
   body{
