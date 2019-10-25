@@ -497,6 +497,13 @@ form.order{
   background: #00CFDF;
   color: black;
 }
+input[type="radio"]:first-child {
+  margin-left: 0px;
+}
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  font-size: 18px;
+}
 
 @media screen and (max-width: 768px){
   body{
