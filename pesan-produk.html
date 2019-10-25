@@ -49,7 +49,7 @@
       <h3>Pesan Pembeli :</h3>
       <textarea name="deskripsi" rows="7" cols=110 placeholder="ex: Warna Biru Mas"></textarea><br><br>
       <form class="simpanpesan" action="index.html" method="post">
-        <input class= "simpanpesan" type="submit" name="Login" value="SIMPAN"><br><br>
+        <input class= "simpanpesan" onclick="pesanan()" type="submit" value="SIMPAN"><br><br>
       </form>
     </form>
     <form class="order" align="right">
@@ -90,5 +90,12 @@
     </div>
 
   </div>
+
+  <script>
+  function pesanan() {
+    alert("Pesanan Anda Tersimpan, Dalam proses pengiriman... Terima Kasih Sudah Berbelanja(^_^)");
+  }
+  </script>
+
   </body>
 </html>
