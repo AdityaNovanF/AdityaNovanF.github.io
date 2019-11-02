@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onetech Official Store</title>
     <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
   </head>
   <body align="left">
     <div class="header">
@@ -36,6 +37,8 @@
       <h2>ONETECH</h2>
       <h3>Tambahkan Produk</h3>
       <a href="#tambahfoto"><img class="tambah-foto" src="img/photo-camera.png" alt="" title="Tambahkan foto produk"></a>
+      <input type="file" class="form-control" id="gambar_pro">
+      <img id="preview" width="300" style="display:none"/><br><br>
       <input type="text" placeholder="Nama Produk"><br><br>
       <input type="text" placeholder="Jenis Produk"><br><br>
       <input type="text" placeholder="Harga Produk"><br><br>
@@ -48,6 +51,25 @@
         <a href="produk.html">Batal</a>
       </form>
     </form>
+    <script type="text/javascript">
+          function readURL(input) {
+      if (input.files && input.files[0]) {
+       var reader = new FileReader();
+       reader.onload = function (e) {
+          if(e!=""){
+            $('#preview').show();
+            $('#preview').attr('src', e.target.result);
+          }else{
+            $('#preview').show();
+          }
+       }
+       reader.readAsDataURL(input.files[0]);
+      }
+      }
 
+      $("#gambar_pro").change(function(){
+       readURL(this);
+      });
+    </script>
   </body>
 </html>
