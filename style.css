@@ -504,6 +504,38 @@ input[type="radio"]:checked + label {
   font-weight: bold;
   font-size: 18px;
 }
+form.LoginAwal{
+  position: relative;
+  background-color: rgba(255,255,255,1);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  width: 320px;
+  height: 300px;
+  margin : 20px auto;
+  text-align: center;
+}
+input.pilihloginAdmin{
+  position: absolute;
+  margin-left: 40% ;
+  margin-top: -16%;
+  width: 20%;
+  height: 45px;
+  border: none;
+  background: #00CFDF;
+  color: black;
+}
+input.pilihloginUser{
+  position: absolute;
+  margin-left: 40% ;
+  margin-top: -12%;
+  width: 20%;
+  height: 45px;
+  border: none;
+  background: #00CFDF;
+  color: black;
+}
+
+
 
 @media screen and (max-width: 768px){
   body{
