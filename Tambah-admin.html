@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onetech Official Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        var x = $("form").serializeArray();
+        $.each(x, function(i, field){
+          $("#results").append(field.name + ":" + field.value + " ");
+        });
+      });
+    });
+</script>
+  </head>
+  <body align="left">
+    <div class="header">
+      <a href="index.html"><img class="logo" src="img/LOGO.png"></a>
+      <form class="Signup" action="Register.html">
+        <input class="Signup" type="submit" name="Register" value="Sign Up">
+      </form>
+      <form class="Signin" action="Login.html">
+        <input class="Signin" type="Submit" name="Login" value="Sign in">
+      </form>
+      <form class="cari" action="index.html" method="post">
+        <input type="text" placeholder="Cari">
+      </form>
+    </div>
+    <div class="navigasi">
+      <ul>
+        <li><a href="produk.html"><b>PRODUK</b></a></li>
+        <li class="kategori"><a href="#kategori"><b>KATEGORI</b></a>
+          <ul class="isi-kategori">
+            <li><a href="kategori-mouse.html">MOUSE + KEYBOARD</a></li>
+            <li><a href="kategori-webcam.html">VIDEO</a></li><br>
+            <li><a href="kategori-speaker.html">SPEAKERS</a></li>
+            <li><a href="kategori-headset.html">HEADSET</a></li>
+          </ul>
+        </li>
+        <li><a href="tentang.html"><b>TENTANG</b></a></li>
+      </ul>
+    </div>
+    
+    <form action="" class="Login" align="center">
+      <h4>Tambahkan Data Admin</h4>
+      User Name: <input type="text" name="User Name" placeholder="User Name"><br>
+      Password: <input type="password" name="Password" placeholder="Password"><br>
+    </form>
+    <div class="tambahDataAdmin">
+      <button>Simpan Data</button>
+    </div>
+
+    <div class="results" id="results">Data yang Ditambahkan:<br></div>
+
+  </body>
+</html>

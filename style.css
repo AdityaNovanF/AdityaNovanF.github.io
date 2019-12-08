@@ -65,6 +65,16 @@ form.Login{
   margin : 20px auto;
   text-align: center;
 }
+div.tambahDataAdmin{
+  text-align: center;
+}
+div.results{
+  margin-left: 35%;
+  background-color: #ffffff;
+  text-align: center;
+  width: 30%;
+  border-radius: 10px;
+}
 form.register{
   background-color: rgba(255,255,255,1);
   border-radius: 10px;
